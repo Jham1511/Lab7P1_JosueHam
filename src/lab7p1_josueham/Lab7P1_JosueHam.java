@@ -154,7 +154,7 @@ public class Lab7P1_JosueHam {
                 if (i == 0 || j == 0) {
                     resultado[i][j]= 0;
                 }//Fin if
-                else if(cadena1Final.charAt(i) == cadena2Final.charAt(i)){
+                else if(cadena1Final.charAt(i) == cadena2Final.charAt(j)){
                     resultado[i][j]=resultado[i-1][j-1]+1;
                 }//Fin else if
                 else {
